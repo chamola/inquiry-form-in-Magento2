@@ -1,0 +1,10 @@
+
+<!-- @Block Manoj\Inquiry\Block\Sample -->
+
+<form action = '<?php echo $block->getUrl('inquiry/index/insert') ?>' method ="POST">
+			<input type="text" name ='name' value '' placeholder = 'Name'>
+			<input type = "email" name ='email' value '' placeholder = 'Email'>
+			<input type = "text" name ='phone' value '' placeholder = 'Mobile'>
+			<textarea name="comment" id="comment" required="" placeholder="Type your comment here" class="form-control"></textarea>
+			<input type ="submit" value ='submit'></button>
+		</form>
