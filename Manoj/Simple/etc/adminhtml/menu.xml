@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Manoj_Simple::simple" title="simple" module="Manoj_Simple" sortOrder="43" resource="Manoj_Simple::simple"/>
+        <add id="Manoj_Simple::post" title="Post" module="Manoj_Simple" sortOrder="20" action="manoj_simple/post" resource="Manoj_Simple::post" parent="Manoj_Simple::simple"/>
+    </menu>
+</config>
